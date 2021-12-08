@@ -448,6 +448,48 @@ img {
   padding: 0 20px;
 }
 
+@media only screen and (max-width: 728px) {
+  .container {
+    position: relative;
+    max-width: 728px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .container {
+    position: relative;
+    max-width: 311px;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+.hero-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 200px;
+  background-color: #203a4c;
+  color: #fff;
+  padding-right: 35px;
+}
+
+.hero-btn:hover {
+  opacity: 0.8;
+}
+
+.hero-btn:active {
+  opacity: 0.6;
+}
+
 .btn {
   display: inline-block;
   margin: 0;
@@ -520,7 +562,7 @@ img {
 
 .hero__container {
   position: relative;
-  background-image: url("../images/hero-back.png");
+  background-image: url("../images/hero-back-img.jpg");
   background-repeat: no-repeat;
   max-width: 1110px;
   height: 600px;
@@ -544,6 +586,9 @@ img {
 }
 
 .hero__desc {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 48px;
   max-width: 390px;
   font-family: Ibarra Real Nova;
   font-style: normal;
@@ -552,6 +597,50 @@ img {
   line-height: 50px;
   letter-spacing: -0.446429px;
   color: #33323D;
+}
+
+@media only screen and (max-width: 728px) {
+  .hero__container {
+    background-image: url("../images/hero-tablet-back.jpg");
+    background-repeat: no-repeat;
+    max-width: 6888px;
+  }
+  .hero__content {
+    max-width: 514px;
+    padding-right: 56px;
+  }
+  .hero__desc {
+    font-family: Ibarra Real Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .hero__container {
+    background-image: url("../images/hero-mobile-back.jpg");
+    background-repeat: no-repeat;
+    max-width: 311px;
+  }
+  .hero__content {
+    padding-top: 56px;
+    padding-right: 0;
+    max-width: 331px;
+    bottom: -168;
+  }
+  .hero__desc {
+    padding-bottom: 32px;
+    font-family: Ibarra Real Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -0.357143px;
+    color: #33323D;
+  }
 }
 
 .hero-portfolio {

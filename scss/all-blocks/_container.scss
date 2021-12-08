@@ -4,3 +4,21 @@
     margin: 0 auto;
     padding: 0 20px;
 }
+
+@media only screen and (max-width:728px){
+    .container {
+        position: relative;
+        max-width: 728px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .container {
+        position: relative;
+        max-width: 311px;
+        margin: 0 auto;
+        padding: 0;
+    }
+}

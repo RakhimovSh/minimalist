@@ -1,3 +1,21 @@
+.hero-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 200px;
+    background-color: rgba(32, 58, 76, 1);
+    color: #fff;
+    padding-right: 35px;
+}
+
+.hero-btn:hover {
+    opacity: 0.8;
+}
+
+.hero-btn:active {
+    opacity: 0.6;
+}
+
 .btn {
     display: inline-block;
     margin: 0;
@@ -8,7 +26,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #33323D;
-    border: 1px solid #33323D;    
+    border: 1px solid #33323D;
 }
 .btn:hover {
     color: white;
@@ -17,7 +35,7 @@
 }
 .btn:active {
     opacity: 0.5;
-    color: #33323D; 
+    color: #33323D;
     background-color: white;
     border-color: #33323D;
 }
