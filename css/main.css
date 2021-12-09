@@ -614,32 +614,6 @@ img {
   max-width: 635px;
 }
 
-.contact {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  max-width: 1110px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-bottom: 40px;
-}
-
-.contact__heading {
-  max-width: 350px;
-  font-family: Ibarra Real Nova;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 42px;
-  letter-spacing: -0.357143px;
-  color: #33323D;
-}
-
 @media only screen and (max-width: 1035px) {
   .manage-project-section {
     display: -webkit-box;
