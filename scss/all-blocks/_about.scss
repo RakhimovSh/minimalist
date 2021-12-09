@@ -1,0 +1,73 @@
+.about {
+    &__container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__img {
+        position: absolute;
+        background-image: url("../images/about-img.jpg");
+        background-repeat: no-repeat;
+        max-width: 591px;
+        height: 600px;
+        padding: 300px 275px;
+        top: 0;
+        left: 0;
+        // z-index: 5;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        border-top: 1px solid rgba(51, 50, 61, 1);
+        border-bottom: 1px solid rgba(51, 50, 61, 1);
+        margin-right: 121px;
+        margin-left: auto;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 14px;
+        font-family: Ibarra Real Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+
+    &__desc {
+        margin: 0;
+        padding: 0;
+        padding-top: 14px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323D;
+        opacity: 0.8;
+    }
+
+    &__link {
+        max-width: 202px;
+        margin-bottom: 46px;
+    }
+}
+
+@media only screen and (max-width:728px){
+    .about {
+        &__img {
+            background-image: url("../images/about-img-tablet.jpg");
+            max-width: 281;
+            background-size: auto;
+            margin-right: 69px;
+        }
+    }
+}
+
+// home partni responsiveni toliq tugatishim kerak ozimga eslatma
