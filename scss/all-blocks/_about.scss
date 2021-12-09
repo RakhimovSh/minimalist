@@ -11,7 +11,6 @@
         background-image: url("../images/about-img.jpg");
         background-repeat: no-repeat;
         max-width: 591px;
-        height: 600px;
         padding: 300px 275px;
         top: 0;
         left: 0;
@@ -59,15 +58,74 @@
     }
 }
 
-@media only screen and (max-width:728px){
+@media only screen and (max-width:1040px){
     .about {
+
         &__img {
             background-image: url("../images/about-img-tablet.jpg");
             max-width: 281;
             background-size: auto;
             margin-right: 69px;
         }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            max-width: 339px;
+            border-top: 1px solid rgba(51, 50, 61, 1);
+            border-bottom: 1px solid rgba(51, 50, 61, 1);
+            margin-right: 40px;
+            margin-left: auto;
+        }
     }
 }
 
-// home partni responsiveni toliq tugatishim kerak ozimga eslatma
+@media only screen and (max-width:680px) {
+
+    .about {
+        &__container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        &__img {
+            position: absolute;
+            background-image: url("../../images/about-img-mobile.jpg");
+            max-width: 311px;
+            padding: 173px 165px;
+            align-items: center;
+            right: auto;
+            left: auto;
+            margin: 0;
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            max-width: 311px;
+            border-top: 1px solid rgba(51, 50, 61, 1);
+            border-bottom: 1px solid rgba(51, 50, 61, 1);
+            margin: 0;
+            margin-top: 378px;
+        }
+        &__heading {
+            padding-top: 32px;
+            padding-bottom: 14px;
+        }
+
+        &__desc {
+            padding-top: 14px;
+            padding-bottom: 24px;
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        &__link {
+            max-width: 202px;
+            margin-bottom: 51px;
+        }
+    }
+}
