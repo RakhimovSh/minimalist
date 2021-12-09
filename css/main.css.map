@@ -1,5 +1,6 @@
 {
     "version": 3,
+
     "sources": [
         "../scss/main.scss",
         "../scss/_normalize.scss",
@@ -14,8 +15,12 @@
         "../scss/all-blocks/_main.scss",
         "../scss/all-blocks/_site-nav.scss",
         "../scss/all-blocks/_hero.scss",
+
+        "../scss/all-blocks/_hero-manage.scss",
+        "../scss/all-blocks/_manage-project-section.scss",
         "../scss/all-blocks/_about.scss",
         "../scss/all-blocks/_interested.scss",
+
         "../scss/all-blocks/_portfolio.scss",
         "../scss/all-blocks/_footer.scss"
     ],
