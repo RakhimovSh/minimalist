@@ -694,7 +694,6 @@ img {
   background-image: url("../images/about-img.jpg");
   background-repeat: no-repeat;
   max-width: 591px;
-  height: 600px;
   padding: 300px 275px;
   top: 0;
   left: 0;
@@ -745,12 +744,83 @@ img {
   margin-bottom: 46px;
 }
 
-@media only screen and (max-width: 728px) {
+@media only screen and (max-width: 1040px) {
   .about__img {
     background-image: url("../images/about-img-tablet.jpg");
     max-width: 281;
     background-size: auto;
     margin-right: 69px;
+  }
+  .about__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 339px;
+    border-top: 1px solid #33323d;
+    border-bottom: 1px solid #33323d;
+    margin-right: 40px;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .about__container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  .about__img {
+    position: absolute;
+    background-image: url("../../images/about-img-mobile.jpg");
+    max-width: 311px;
+    padding: 173px 165px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    right: auto;
+    left: auto;
+    margin: 0;
+  }
+  .about__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 311px;
+    border-top: 1px solid #33323d;
+    border-bottom: 1px solid #33323d;
+    margin: 0;
+    margin-top: 378px;
+  }
+  .about__heading {
+    padding-top: 32px;
+    padding-bottom: 14px;
+  }
+  .about__desc {
+    padding-top: 14px;
+    padding-bottom: 24px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .about__link {
+    max-width: 202px;
+    margin-bottom: 51px;
   }
 }
 
