@@ -1,0 +1,95 @@
+.hero {
+    margin-bottom: 150px;
+    &__container {
+        position: relative;
+        background-image: url("../images/hero-back-img.jpg");
+        background-repeat: no-repeat;
+        max-width: 1110px;
+        height: 600px;
+    }
+
+    &__content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding-top: 56px;
+        padding-right: 55px;
+        background-color: #fff;
+        max-width: 445px;
+        left: 0;
+        bottom: 0;
+    }
+
+    &__desc {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 48px;
+        max-width: 390px;
+        font-family: Ibarra Real Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: -0.446429px;
+        color: #33323D;
+    }
+}
+
+@media only screen and (max-width:728px){
+    .hero {
+        &__container {
+            position: relative;
+            margin: 0 auto;
+            padding: 0 20px;
+            background-image: url("../images/hero-tablet-back.jpg");
+            background-repeat: no-repeat;
+            max-width: 688px;
+        }
+
+        &__content {
+            max-width: 514px;
+            padding-right: 56px;
+        }
+
+        &__desc {
+            font-family: Ibarra Real Nova;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 42px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+        }
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .hero {
+        &__container {
+            position: relative;
+            max-width: 311px;
+            margin: 0 auto;
+            padding: 0;
+            background-image: url("../images/hero-mobile-back.jpg");
+            background-repeat: no-repeat;
+        }
+
+        &__content {
+            // display: none;
+            padding-top: 56px;
+            padding-right: 0;
+            max-width: 331px;
+            bottom: -168;
+        }
+
+        &__desc {
+            padding-bottom: 32px;
+            font-family: Ibarra Real Nova;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            letter-spacing: -0.357143px;
+            color: #33323D;
+        }
+    }
+}

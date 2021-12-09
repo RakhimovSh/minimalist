@@ -5,15 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Minimalist</title>
 </head>
 <body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#"> <img src="./images/minimalist-logo.svg" alt="site logo" width="29" height="6"></a>
+
+            <nav class="site-nav">
+                <ul class="site-nav__list">
+                    <li class="site-nav__item"> <a class="site-nav__link" href="index.html">Home</a></li>
+                    <li class="site-nav__item"> <a class="site-nav__link" href="#">Portfolio</a></li>
+                    <li class="site-nav__item"> <a class="site-nav__link" href="#">Contact me</a></li>
+                </ul>
+            </nav>
+
+            <div class="header__hamburger"></div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+
     <main class="main">
         <section class="hero-portfolio">
-            <div class="container">
+            <div class="container hero-portfolio__container">
                 <ul class="hero-portfolio__list">
                     <li class="hero-portfolio__item">
-                        <img src="./images/manage.jpg" alt="" width="540" height="500">
+                        <img class="hero-portfolio__img" src="./images/manage.jpg" alt="" width="540" height="500">
                         <div class="hero-portfolio__inner">
                             <span class="hero-portfolio__span"></span>
                             <h2 class="hero-portfolio__title">Manage</h2>
@@ -23,30 +44,30 @@
                         </div>
                     </li>
                     <li class="hero-portfolio__item">
-                        <img src="./images/manage.jpg" alt="" width="540" height="500">
+                        <img class="hero-portfolio__img" src="./images/bookmark.jpg" alt="" width="540" height="500">
                         <div class="hero-portfolio__inner">
                             <span class="hero-portfolio__span"></span>
-                            <h2 class="hero-portfolio__title">Manage</h2>
+                            <h2 class="hero-portfolio__title">Bookmark</h2>
                             <p class="hero-portfolio__disc">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.</p>
                             <a class="btn" href="#">VIEW PROJECT</a>
                             <span class="hero-portfolio__span--bottom"></span>
                         </div>
                     </li>
                     <li class="hero-portfolio__item">
-                        <img src="./images/manage.jpg" alt="" width="540" height="500">
+                        <img class="hero-portfolio__img" src="./images/insure.jpg" alt="" width="540" height="500">
                         <div class="hero-portfolio__inner">
                             <span class="hero-portfolio__span"></span>
-                            <h2 class="hero-portfolio__title">Manage</h2>
+                            <h2 class="hero-portfolio__title">Insure</h2>
                             <p class="hero-portfolio__disc">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.</p>
                             <a class="btn" href="#">VIEW PROJECT</a>
                             <span class="hero-portfolio__span--bottom"></span>
                         </div>
                     </li>
                     <li class="hero-portfolio__item">
-                        <img src="./images/manage.jpg" alt="" width="540" height="500">
+                        <img class="hero-portfolio__img" src="./images/fylo.jpg" alt="" width="540" height="500">
                         <div class="hero-portfolio__inner">
                             <span class="hero-portfolio__span"></span>
-                            <h2 class="hero-portfolio__title">Manage</h2>
+                            <h2 class="hero-portfolio__title">Insure</h2>
                             <p class="hero-portfolio__disc">This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.</p>
                             <a class="btn" href="#">VIEW PROJECT</a>
                             <span class="hero-portfolio__span--bottom"></span>
@@ -55,6 +76,41 @@
                 </ul>
             </div>
         </section>
+        <!-- INTERESTED -->
+
+        <section class="interested">
+            <div class="container interested__container">
+                <h2 class="interested__heading">Interested in doing a project together?</h2>
+
+                <span class="interested__span"></span>
+
+                <a class="btn" href="#">Contact me</a>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__left">
+                <a class="footer__logo" href="#"><img src="./images/minimi-footer-logo.svg" alt="site footer logo" width="29" height="6"></a>
+
+                <nav class="site-nav footer__nav">
+                    <ul class="site-nav__list footer__list">
+                        <li class="site-nav__item footer__item"> <a class="site-nav__link footer__item" href="#">Home</a></li>
+                        <li class="site-nav__item footer__item"> <a class="site-nav__link footer__item" href="portfolio.html">Portfolio</a></li>
+                        <li class="site-nav__item footer__item"> <a class="site-nav__link footer__item" href="#">Contact me</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="footer__right">
+                <a class="footer__link" href="https://github.com/"> <img class="footer__img" src="./images/github-logo.svg" alt=" github logo" width="25" height="24"></a>
+                <a class="footer__link" href="https://twitter.com/"> <img class="footer__img" src="./images/twitter-logo.svg" alt=" github logo" width="24" height="20"></a>
+                <a class="footer__link" href="https://www.linkedin.com/"> <img class="footer__img" src="./images/linked-logo.svg" alt=" github logo" width="24" height="24"></a>
+            </div>
+        </div>
+    </footer>
     </main>
 </body>
 </html>

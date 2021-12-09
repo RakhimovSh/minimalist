@@ -1,0 +1,133 @@
+.about {
+    &__container {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__img {
+        position: absolute;
+        background-image: url("../images/about-img.jpg");
+        background-repeat: no-repeat;
+        max-width: 591px;
+        padding: 300px 275px;
+        top: 0;
+        left: 20px;
+        // z-index: 5;
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        border-top: 1px solid rgba(51, 50, 61, 1);
+        border-bottom: 1px solid rgba(51, 50, 61, 1);
+        margin-right: 121px;
+        margin-left: auto;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 14px;
+        font-family: Ibarra Real Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 42px;
+        letter-spacing: -0.357143px;
+        color: #33323D;
+    }
+
+    &__desc {
+        margin: 0;
+        padding: 0;
+        padding-top: 14px;
+        padding-bottom: 24px;
+        font-size: 16px;
+        line-height: 30px;
+        color: #33323D;
+        opacity: 0.8;
+    }
+
+    &__link {
+        max-width: 205px;
+        margin-bottom: 46px;
+    }
+}
+
+@media only screen and (max-width:1040px){
+    .about {
+
+        &__img {
+            background-image: url("../images/about-img-tablet.jpg");
+            max-width: 281;
+            background-size: auto;
+            margin-right: 69px;
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            max-width: 339px;
+            border-top: 1px solid rgba(51, 50, 61, 1);
+            border-bottom: 1px solid rgba(51, 50, 61, 1);
+            margin-right: 40px;
+            margin-left: auto;
+        }
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+    .about {
+        &__container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        &__img {
+            position: absolute;
+            background-image: url("../../images/about-img-mobile.jpg");
+            max-width: 311px;
+            padding: 173px 150px;
+            align-items: center;
+            right: auto;
+            left: auto;
+            margin: 0;
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            max-width: 311px;
+            border-top: 1px solid rgba(51, 50, 61, 1);
+            border-bottom: 1px solid rgba(51, 50, 61, 1);
+            margin: 0;
+            margin-top: 378px;
+        }
+        &__heading {
+            padding-top: 32px;
+            padding-bottom: 14px;
+        }
+
+        &__desc {
+            padding-top: 14px;
+            padding-bottom: 24px;
+            font-size: 16px;
+            line-height: 30px;
+        }
+
+        &__link {
+            display: inline-block;
+            max-width: 210px;
+            margin-bottom: 48px;
+        }
+    }
+}
