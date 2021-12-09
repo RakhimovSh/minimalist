@@ -38,6 +38,10 @@
 @media only screen and (max-width:728px){
     .hero {
         &__container {
+            position: relative;
+            max-width: 728px;
+            margin: 0 auto;
+            padding: 0 20px;
             background-image: url("../images/hero-tablet-back.jpg");
             background-repeat: no-repeat;
             max-width: 6888px;
@@ -63,10 +67,13 @@
 @media only screen and (max-width:380px) {
     .hero {
         &__container {
+            position: relative;
+            max-width: 311px;
+            margin: 0 auto;
+            padding: 0;
             background-image: url("../images/hero-mobile-back.jpg");
             background-repeat: no-repeat;
             max-width: 311px;
-            // height: 271px;
         }
 
         &__content {
