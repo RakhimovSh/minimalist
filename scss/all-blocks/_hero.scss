@@ -39,12 +39,11 @@
     .hero {
         &__container {
             position: relative;
-            max-width: 728px;
             margin: 0 auto;
             padding: 0 20px;
             background-image: url("../images/hero-tablet-back.jpg");
             background-repeat: no-repeat;
-            max-width: 6888px;
+            max-width: 688px;
         }
 
         &__content {
@@ -73,7 +72,6 @@
             padding: 0;
             background-image: url("../images/hero-mobile-back.jpg");
             background-repeat: no-repeat;
-            max-width: 311px;
         }
 
         &__content {

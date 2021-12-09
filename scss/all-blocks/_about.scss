@@ -13,7 +13,7 @@
         max-width: 591px;
         padding: 300px 275px;
         top: 0;
-        left: 0;
+        left: 20px;
         // z-index: 5;
     }
 
@@ -80,7 +80,7 @@
     }
 }
 
-@media only screen and (max-width:680px) {
+@media only screen and (max-width:700px) {
 
     .about {
         &__container {
@@ -89,13 +89,14 @@
             flex-direction: column;
             align-items: center;
             margin: 0 auto;
+            padding: 0;
         }
 
         &__img {
             position: absolute;
             background-image: url("../../images/about-img-mobile.jpg");
             max-width: 311px;
-            padding: 173px 165px;
+            padding: 173px 150px;
             align-items: center;
             right: auto;
             left: auto;
